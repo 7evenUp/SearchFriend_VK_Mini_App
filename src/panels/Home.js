@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import Panel from '@vkontakte/vkui/dist/components/Panel/Panel';
 import PanelHeader from '@vkontakte/vkui/dist/components/PanelHeader/PanelHeader';
@@ -7,30 +7,19 @@ import Group from '@vkontakte/vkui/dist/components/Group/Group';
 import Cell from '@vkontakte/vkui/dist/components/Cell/Cell';
 import Div from '@vkontakte/vkui/dist/components/Div/Div';
 import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
-
-import mapboxgl from 'mapbox-gl'
-
-mapboxgl.accessToken = 'pk.eyJ1IjoiN2V2ZW51cCIsImEiOiJja2c5OW50NmMwbGh2MnJsczBwb3BuMXVoIn0.s6TgfUXLti8tEHE_QRbljg'
+import { createMap } from '../map/createMap'
 
 const Home = ({ id, go, fetchedUser }) => {
 	let mapContainerRef = useRef(null)
 
-	const [inputValue, setInputValue] = useState('');
-
-	useEffect(() => {
-		const map = new mapboxgl.Map({
-			container: mapContainerRef,
-			style: 'mapbox://styles/mapbox/streets-v11'
-		})
-	}, [])
-
-	const onChange = (evt) => {
-		setInputValue(evt.target.value);
-	}
+	useEffect(() => { createMap(mapContainerRef) }, [])
 
 	return (
 	<Panel id={id}>
 		<PanelHeader>Example</PanelHeader>
+		
+		<div ref={el => mapContainerRef = el} className="map"></div>
+
 		{fetchedUser &&
 		<Group title="User Data Fetched with VK Bridge">
 			<Cell
@@ -41,8 +30,6 @@ const Home = ({ id, go, fetchedUser }) => {
 			</Cell>
 		</Group>}
 
-			<div ref={el => mapContainerRef = el}></div>
-
 		<Group title="Navigation Example">
 			<Div>
 				<Button size="xl" level="2" onClick={go} data-to="persik">
@@ -50,8 +37,6 @@ const Home = ({ id, go, fetchedUser }) => {
 				</Button>
 			</Div>
 		</Group>
-		<input name="input" value={inputValue} onChange={onChange}/>
-		{inputValue === '14' ? <b>Угадал!</b> : <i>Не угадал</i>}
 	</Panel>
 )};
 
