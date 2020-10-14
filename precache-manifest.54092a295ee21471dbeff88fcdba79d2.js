@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "65501be9da86448a5a479e7fe38e8921",
+    "revision": "7575dea24a70a06e52c8eeff6e3de1f2",
     "url": "/SearchFriend_VK_Mini_App/index.html"
   },
   {
-    "revision": "1353da6c6dffd99304d3",
+    "revision": "def21f5e229b71c7ae72",
     "url": "/SearchFriend_VK_Mini_App/static/css/2.09e62520.chunk.css"
   },
   {
-    "revision": "2dd708b36e610b5dedd1",
+    "revision": "ad960c169d98cafdfddc",
     "url": "/SearchFriend_VK_Mini_App/static/css/main.981f7211.chunk.css"
   },
   {
-    "revision": "1353da6c6dffd99304d3",
-    "url": "/SearchFriend_VK_Mini_App/static/js/2.61569f12.chunk.js"
+    "revision": "def21f5e229b71c7ae72",
+    "url": "/SearchFriend_VK_Mini_App/static/js/2.29ee7ebc.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/SearchFriend_VK_Mini_App/static/js/2.61569f12.chunk.js.LICENSE.txt"
+    "url": "/SearchFriend_VK_Mini_App/static/js/2.29ee7ebc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2dd708b36e610b5dedd1",
-    "url": "/SearchFriend_VK_Mini_App/static/js/main.ee2d1732.chunk.js"
+    "revision": "ad960c169d98cafdfddc",
+    "url": "/SearchFriend_VK_Mini_App/static/js/main.d3ec7b7e.chunk.js"
   },
   {
     "revision": "2c685d56e9c1641e6fee",
