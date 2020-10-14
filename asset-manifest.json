@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/SearchFriend_VK_Mini_App/static/css/main.981f7211.chunk.css",
+    "main.js": "/SearchFriend_VK_Mini_App/static/js/main.f134b112.chunk.js",
+    "main.js.map": "/SearchFriend_VK_Mini_App/static/js/main.f134b112.chunk.js.map",
+    "runtime-main.js": "/SearchFriend_VK_Mini_App/static/js/runtime-main.4c627e86.js",
+    "runtime-main.js.map": "/SearchFriend_VK_Mini_App/static/js/runtime-main.4c627e86.js.map",
+    "static/css/2.09e62520.chunk.css": "/SearchFriend_VK_Mini_App/static/css/2.09e62520.chunk.css",
+    "static/js/2.cd1d65b4.chunk.js": "/SearchFriend_VK_Mini_App/static/js/2.cd1d65b4.chunk.js",
+    "static/js/2.cd1d65b4.chunk.js.map": "/SearchFriend_VK_Mini_App/static/js/2.cd1d65b4.chunk.js.map",
+    "index.html": "/SearchFriend_VK_Mini_App/index.html",
+    "precache-manifest.cd0664bf8e51a29182d9099d76728283.js": "/SearchFriend_VK_Mini_App/precache-manifest.cd0664bf8e51a29182d9099d76728283.js",
+    "service-worker.js": "/SearchFriend_VK_Mini_App/service-worker.js",
+    "static/css/2.09e62520.chunk.css.map": "/SearchFriend_VK_Mini_App/static/css/2.09e62520.chunk.css.map",
+    "static/css/main.981f7211.chunk.css.map": "/SearchFriend_VK_Mini_App/static/css/main.981f7211.chunk.css.map",
+    "static/js/2.cd1d65b4.chunk.js.LICENSE.txt": "/SearchFriend_VK_Mini_App/static/js/2.cd1d65b4.chunk.js.LICENSE.txt",
+    "static/media/persik.png": "/SearchFriend_VK_Mini_App/static/media/persik.4e1ec840.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c627e86.js",
+    "static/css/2.09e62520.chunk.css",
+    "static/js/2.cd1d65b4.chunk.js",
+    "static/css/main.981f7211.chunk.css",
+    "static/js/main.f134b112.chunk.js"
+  ]
+}
