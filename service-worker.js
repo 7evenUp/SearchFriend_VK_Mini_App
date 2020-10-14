@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SearchFriend_VK_Mini_App/precache-manifest.cd0664bf8e51a29182d9099d76728283.js"
+  "/SearchFriend_VK_Mini_App/precache-manifest.1bdc522a57832705fdd07edeea76dd6e.js"
 );
 
 self.addEventListener('message', (event) => {
