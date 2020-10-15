@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/SearchFriend_VK_Mini_App/static/css/main.354d27b4.chunk.css",
-    "main.js": "/SearchFriend_VK_Mini_App/static/js/main.0a1bd90c.chunk.js",
-    "main.js.map": "/SearchFriend_VK_Mini_App/static/js/main.0a1bd90c.chunk.js.map",
+    "main.css": "/SearchFriend_VK_Mini_App/static/css/main.41a85714.chunk.css",
+    "main.js": "/SearchFriend_VK_Mini_App/static/js/main.7b9e7695.chunk.js",
+    "main.js.map": "/SearchFriend_VK_Mini_App/static/js/main.7b9e7695.chunk.js.map",
     "runtime-main.js": "/SearchFriend_VK_Mini_App/static/js/runtime-main.83ea72a0.js",
     "runtime-main.js.map": "/SearchFriend_VK_Mini_App/static/js/runtime-main.83ea72a0.js.map",
     "static/css/2.09e62520.chunk.css": "/SearchFriend_VK_Mini_App/static/css/2.09e62520.chunk.css",
-    "static/js/2.8e2899b7.chunk.js": "/SearchFriend_VK_Mini_App/static/js/2.8e2899b7.chunk.js",
-    "static/js/2.8e2899b7.chunk.js.map": "/SearchFriend_VK_Mini_App/static/js/2.8e2899b7.chunk.js.map",
+    "static/js/2.fc5486fd.chunk.js": "/SearchFriend_VK_Mini_App/static/js/2.fc5486fd.chunk.js",
+    "static/js/2.fc5486fd.chunk.js.map": "/SearchFriend_VK_Mini_App/static/js/2.fc5486fd.chunk.js.map",
     "index.html": "/SearchFriend_VK_Mini_App/index.html",
-    "precache-manifest.24664cd32fc2eaae3e9f49359cf2cbd4.js": "/SearchFriend_VK_Mini_App/precache-manifest.24664cd32fc2eaae3e9f49359cf2cbd4.js",
+    "precache-manifest.24edc1649e343e010ed56b326caebb68.js": "/SearchFriend_VK_Mini_App/precache-manifest.24edc1649e343e010ed56b326caebb68.js",
     "service-worker.js": "/SearchFriend_VK_Mini_App/service-worker.js",
     "static/css/2.09e62520.chunk.css.map": "/SearchFriend_VK_Mini_App/static/css/2.09e62520.chunk.css.map",
-    "static/css/main.354d27b4.chunk.css.map": "/SearchFriend_VK_Mini_App/static/css/main.354d27b4.chunk.css.map",
-    "static/js/2.8e2899b7.chunk.js.LICENSE.txt": "/SearchFriend_VK_Mini_App/static/js/2.8e2899b7.chunk.js.LICENSE.txt",
+    "static/css/main.41a85714.chunk.css.map": "/SearchFriend_VK_Mini_App/static/css/main.41a85714.chunk.css.map",
+    "static/js/2.fc5486fd.chunk.js.LICENSE.txt": "/SearchFriend_VK_Mini_App/static/js/2.fc5486fd.chunk.js.LICENSE.txt",
     "static/media/persik.png": "/SearchFriend_VK_Mini_App/static/media/persik.4e1ec840.png"
   },
   "entrypoints": [
     "static/js/runtime-main.83ea72a0.js",
     "static/css/2.09e62520.chunk.css",
-    "static/js/2.8e2899b7.chunk.js",
-    "static/css/main.354d27b4.chunk.css",
-    "static/js/main.0a1bd90c.chunk.js"
+    "static/js/2.fc5486fd.chunk.js",
+    "static/css/main.41a85714.chunk.css",
+    "static/js/main.7b9e7695.chunk.js"
   ]
 }
